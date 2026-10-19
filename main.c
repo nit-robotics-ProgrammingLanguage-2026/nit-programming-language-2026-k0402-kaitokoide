@@ -6,7 +6,7 @@ int main(void) {
 
     scanf("%lf", &d);        //小数を入力
     result = d * 1.08;       //入力した数を1.08倍
-    printf("%.2f", result); //小数点以下2桁で表示
+    printf("%.2f\n", result); //小数点以下2桁で表示
 
     return 0;               //正常終了
 }
