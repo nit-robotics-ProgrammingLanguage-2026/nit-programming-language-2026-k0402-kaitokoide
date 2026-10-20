@@ -1,11 +1,12 @@
-#include <stdio.h>
+#include <stdio.h>          //入力と表示の機能を使う準備
 
 int main(void) {
-    /* 課題0402: 入力されたdoubleのデータを1.08倍した結果を，小数点以下2桁として表示するプログラムを書け． */
-    double d;           //入力
-    double result;      //結果
-    scanf("%lf",&d);q   //入力をキーボードから入力
-    ;// ここで計算
-    printf();           //結果を出力
-    return 0;
+    double d;               //入力した数を保存
+    double result;          //計算結果を保存
+
+    scanf("%lf", &d);        //小数を入力
+    result = d * 1.08;       //入力した数を1.08倍
+    printf("%.2f\n", result); //小数点以下2桁で表示
+
+    return 0;               //正常終了
 }
